@@ -1,0 +1,619 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-06T03:13:43.392601+00:00",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "bytes": 8
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "437d51d40489f40f7ed54c26312bcf46cd12a9f9d20ff0b3275ee2094598ca85",
+      "bytes": 42
+    },
+    {
+      "path": "erdos-research/CLAIMS_LEDGER.md",
+      "sha256": "92da0ddbcba2b93d546b175552b186fd1da18b6031d83fd9c1ac5e0765f0b739",
+      "bytes": 250471
+    },
+    {
+      "path": "erdos-research/STATEMENT_MAP.md",
+      "sha256": "92da0ddbcba2b93d546b175552b186fd1da18b6031d83fd9c1ac5e0765f0b739",
+      "bytes": 250471
+    },
+    {
+      "path": "evidence/package-check.json",
+      "sha256": "a5fe4c728a1c91e72d3214514f9a0446e1b9b05ecf6da072132319eca630e954",
+      "bytes": 878063
+    },
+    {
+      "path": "evidence/PROVENANCE.json",
+      "sha256": "dc53a0a47783e5148e693e4f05103a249ef32c8234ed06be87df04db4dae696a",
+      "bytes": 7555
+    },
+    {
+      "path": "evidence/recorded-audit.json",
+      "sha256": "29763f27c509d2631f4918c8c97b5f6873c52bf29a4802f40294a7fddcc9cbfe",
+      "bytes": 878009
+    },
+    {
+      "path": "formal/claims.json",
+      "sha256": "9f70976c36bd5a3fddde42e51ee891502341e25ec81c9fae2162ac29b37f4b17",
+      "bytes": 368062
+    },
+    {
+      "path": "formal/Erdos1040/AdjointCircleMean.lean",
+      "sha256": "9bc8f86da6790f2767a3d5f762e0f437e96825ffe853cba720587c25d1d73730",
+      "bytes": 1979
+    },
+    {
+      "path": "formal/Erdos1040/AdjointPotential.lean",
+      "sha256": "74fe89f6614e40d2bc6aa1449e2ab8d559e933f1ef813a579a4da74464602c2e",
+      "bytes": 2183
+    },
+    {
+      "path": "formal/Erdos1040/AdjointUniqueness.lean",
+      "sha256": "528166cd654a379c878279047574405adff01dbbaadf2421b6dabe425dc609a8",
+      "bytes": 10095
+    },
+    {
+      "path": "formal/Erdos1040/AreaInfimumEndpoints.lean",
+      "sha256": "a5e1c815c673d8d37a609c5348d2c9c9ccfdecc4be4ed62ee216358c224b57ce",
+      "bytes": 1724
+    },
+    {
+      "path": "formal/Erdos1040/AreaObstruction.lean",
+      "sha256": "fde0f797bd6473a57a81e310fa251e32c1dd702f0aca1ee612505cdaccf15836",
+      "bytes": 5199
+    },
+    {
+      "path": "formal/Erdos1040/AreaTransfer.lean",
+      "sha256": "624c76235c9a5cff3f96ae265ab9c2f2c5c573dcbd912112d08c7deded36da11",
+      "bytes": 1532
+    },
+    {
+      "path": "formal/Erdos1040/AtomicApproximation.lean",
+      "sha256": "3ae91e428d2374be76c419a75cb58c664b2df36124435e0bc9e3f761ea29c4ba",
+      "bytes": 3502
+    },
+    {
+      "path": "formal/Erdos1040/AtomicAreaAssembly.lean",
+      "sha256": "e6d1a7be90c2fc6fd5bf17b17d0d9fa1d3942ce8400646597bafaa998431d814",
+      "bytes": 5747
+    },
+    {
+      "path": "formal/Erdos1040/AtomicPotential.lean",
+      "sha256": "11dc8d3c71fdc66458f9d7701c466ad2216c409b8261234a3ab33fa970b43094",
+      "bytes": 2163
+    },
+    {
+      "path": "formal/Erdos1040/Basic.lean",
+      "sha256": "8ad9a2349f6cc49d3042bcb01c67bc63c09286655df5d48bb2afa028cbbc3dc7",
+      "bytes": 1825
+    },
+    {
+      "path": "formal/Erdos1040/CapacityDependence.lean",
+      "sha256": "4c89800720e3208bccd5c044fc3013dba5d69d37648e940ee319119fc626a60b",
+      "bytes": 4495
+    },
+    {
+      "path": "formal/Erdos1040/CapacityTheorem.lean",
+      "sha256": "b44f1b93006d7f5b689bc7563ceef2b4186982e3807818e0853765a0dc4b09cf",
+      "bytes": 1709
+    },
+    {
+      "path": "formal/Erdos1040/CapPolynomial.lean",
+      "sha256": "f6c45f7ff19ce0a39946dfc05a24d5312fbf227482d58abd60e72171eb2d87d7",
+      "bytes": 9405
+    },
+    {
+      "path": "formal/Erdos1040/CapRotation.lean",
+      "sha256": "244cffea9c3ac0c1895e24daafaf76a344d33850c0eeb5500c64c086a1ed7256",
+      "bytes": 8302
+    },
+    {
+      "path": "formal/Erdos1040/CircleMean.lean",
+      "sha256": "b58428d24b28b567d9352896661e977185aee3fd8a83672bee5523fd9cd7c298",
+      "bytes": 5832
+    },
+    {
+      "path": "formal/Erdos1040/CompactLemniscate.lean",
+      "sha256": "60b037f951929fa6049fee6dadf841e37a5139262e68263cb55c6819d5279174",
+      "bytes": 1729
+    },
+    {
+      "path": "formal/Erdos1040/ConditionalLemniscate.lean",
+      "sha256": "5bc2595a6a22e78f4dbf3f4d85b241c19dc366163cdedeec1d1d3db23782e241",
+      "bytes": 9414
+    },
+    {
+      "path": "formal/Erdos1040/CountableSources.lean",
+      "sha256": "95663c2dd64194040b067955857e6724fcaadef8316d3ca315978595e81a9596",
+      "bytes": 2568
+    },
+    {
+      "path": "formal/Erdos1040/DensityOperator.lean",
+      "sha256": "cc57dadc3704ac382a61be0555299aab8ddb14459d10262fd3a4244bfab29482",
+      "bytes": 3299
+    },
+    {
+      "path": "formal/Erdos1040/DiscretePotential.lean",
+      "sha256": "1a7602dd174d34e6b963207ec581884b0761824f21faf38fe6712cbe8fd61db8",
+      "bytes": 4424
+    },
+    {
+      "path": "formal/Erdos1040/EmpiricalEnergy.lean",
+      "sha256": "a9a0a6ca326dc2a7aa39946516b4f93f7356dc4f7aeb7e7caf46dcc26b789bba",
+      "bytes": 7282
+    },
+    {
+      "path": "formal/Erdos1040/EnergyDiameter.lean",
+      "sha256": "c663863273a1848745a39df225985c3983239b1103b62f974855ae32b8d2c7c5",
+      "bytes": 2959
+    },
+    {
+      "path": "formal/Erdos1040/EnergyFrostman.lean",
+      "sha256": "dba452690055e0cc884748e4846956beed8793a701acbcca873b7ac3f18585d0",
+      "bytes": 7569
+    },
+    {
+      "path": "formal/Erdos1040/EnergyVariation.lean",
+      "sha256": "a4814926d43071ebae5f3da31d76450cae66c8f87a99a1b98c86003128d51da0",
+      "bytes": 6783
+    },
+    {
+      "path": "formal/Erdos1040/ExteriorKernel.lean",
+      "sha256": "39421cd86c7dcc62b60e9e8c9c00a67ffb3dc4952911fed92056d222cacae109",
+      "bytes": 5324
+    },
+    {
+      "path": "formal/Erdos1040/ExteriorPositivity.lean",
+      "sha256": "ba29345fda8479dc4db855c6eea6ec7c9378d991b43d0360d8ffca8b11c362d7",
+      "bytes": 2393
+    },
+    {
+      "path": "formal/Erdos1040/FilledHull.lean",
+      "sha256": "37be71e86146f0881b1d2d8b34e57bab5d05ccb649051a2a317a2bc497b1b4b0",
+      "bytes": 3744
+    },
+    {
+      "path": "formal/Erdos1040/FullTheorem.lean",
+      "sha256": "f6693aa7defbc2f7328600f82423260b5b8eeb070ab4d54bc2a2ee347e59aeb2",
+      "bytes": 1098
+    },
+    {
+      "path": "formal/Erdos1040/GeometricDiameter.lean",
+      "sha256": "bd0f8f27726fb5ef979c5e47f08a789d201144218b0045e91d1d908ab5a542a7",
+      "bytes": 7385
+    },
+    {
+      "path": "formal/Erdos1040/GeometricDiameterLimit.lean",
+      "sha256": "9d444bcfe363432fb0e0ff6d3e682d488a2798816582eb0dfb34843d86747b08",
+      "bytes": 7083
+    },
+    {
+      "path": "formal/Erdos1040/GeometricScaling.lean",
+      "sha256": "9e9207aed62a7d92814f32a68a28094219c55b3c63a9ca4fdb0582594253b684",
+      "bytes": 4795
+    },
+    {
+      "path": "formal/Erdos1040/GlobalFrostman.lean",
+      "sha256": "b5abde95445567d3d9868a22d437f79e6f48b37bfde8a889c662b8b867ddeb10",
+      "bytes": 15769
+    },
+    {
+      "path": "formal/Erdos1040/HarmonicMaximum.lean",
+      "sha256": "14dc021b543a23e2f3e17a4f437ee15b78a87c15b0a7b8275dfa1cb6ff059803",
+      "bytes": 6527
+    },
+    {
+      "path": "formal/Erdos1040/LogarithmicCapacity.lean",
+      "sha256": "3166693eb21c9a3e9a54ef105672c2e2db842d1f5d96b4ee541831ea39a95806",
+      "bytes": 4481
+    },
+    {
+      "path": "formal/Erdos1040/LogContinuity.lean",
+      "sha256": "57a6f8fb5a2fe0686c34af4f26ea3826030f9324e70e3de479b38d0aa4db7d29",
+      "bytes": 3969
+    },
+    {
+      "path": "formal/Erdos1040/LogEnergy.lean",
+      "sha256": "47f2b4c81b03afd010ff4aedecaeacc37cebc2847d9bf601a431e16c90132e02",
+      "bytes": 5263
+    },
+    {
+      "path": "formal/Erdos1040/LogEnergyIntegrability.lean",
+      "sha256": "37495ac36cc4be2d5d6f3a180c328e57a68390d81d608f41b59be1ec80975023",
+      "bytes": 4688
+    },
+    {
+      "path": "formal/Erdos1040/LogEnergyScale.lean",
+      "sha256": "80144d5a59a35ecb5c838c3114bb7bc90cfab74e6000ae9a7b8353e39f12b6c1",
+      "bytes": 4064
+    },
+    {
+      "path": "formal/Erdos1040/LogKernel.lean",
+      "sha256": "0a4125e7f8974c6e4f7b2db8c17174fe598092f330a1316c5837fbabbaa7c8f7",
+      "bytes": 3922
+    },
+    {
+      "path": "formal/Erdos1040/NonnegativePotentialLemniscate.lean",
+      "sha256": "57e8297f00944ac37b4f59294d36087b194f2ef9efeb60dc0254b10203ead70c",
+      "bytes": 1958
+    },
+    {
+      "path": "formal/Erdos1040/PolynomialConclusion.lean",
+      "sha256": "adf239ac7dcb215854cd5b9c5d083edc40d0d6eb8e2d2120021b96d2d878ff68",
+      "bytes": 1194
+    },
+    {
+      "path": "formal/Erdos1040/PolynomialDensity.lean",
+      "sha256": "7dbd5866453feb2c29bf8a12d1c4dbcc66e743fd584668905a0a85c824711fe3",
+      "bytes": 2324
+    },
+    {
+      "path": "formal/Erdos1040/PositiveDensity.lean",
+      "sha256": "2e385fb5ec722ed865971ae29d7d5377835ac31372712139fcefa2ef59799597",
+      "bytes": 3550
+    },
+    {
+      "path": "formal/Erdos1040/PotentialAsymptotics.lean",
+      "sha256": "fcd7e50dcdc6021a78831df0045f23d7f67f267b4bc20d792968529ffbb8481d",
+      "bytes": 6272
+    },
+    {
+      "path": "formal/Erdos1040/PotentialHarmonic.lean",
+      "sha256": "bf00ee5b2ea2c5953f8cfca3f1c2938b5073f52977e39ffbe17f70e613e52a9b",
+      "bytes": 9267
+    },
+    {
+      "path": "formal/Erdos1040/PotentialMoments.lean",
+      "sha256": "1cdba35c8e3a11374fb02509aee0bf4c34302fcbbe14e214de938b6f76029923",
+      "bytes": 14965
+    },
+    {
+      "path": "formal/Erdos1040/SimultaneousApproximation.lean",
+      "sha256": "ec8a506a77cd7ac2a0b000f26390995e879e6d7e6453491ae36c5510148eeff4",
+      "bytes": 1088
+    },
+    {
+      "path": "formal/Erdos1040/SourceDensity.lean",
+      "sha256": "897026f5e0c071a9bf2ae271d745adcb029c6455212241d8419e7354b8f9f25f",
+      "bytes": 7445
+    },
+    {
+      "path": "formal/Erdos1040/SourcePotential.lean",
+      "sha256": "4de9d0b75283f0707d6e52c2170f211bc0c2347bd482e6fb7e3fb1e7a9eca652",
+      "bytes": 5304
+    },
+    {
+      "path": "formal/Erdos1040/SourceSupport.lean",
+      "sha256": "3030987deff1f06329e54533522578ed0d4bc0d89bfc969da242cf3408851ff7",
+      "bytes": 6676
+    },
+    {
+      "path": "formal/Erdos1040/TruncatedEnergy.lean",
+      "sha256": "a4a946a5c03daf7c48c107db684319ecc0eca74ffacd7833fad8e8de5e75a5a1",
+      "bytes": 4055
+    },
+    {
+      "path": "formal/Erdos1040/TrustedCore.lean",
+      "sha256": "6628016a80a31ae45cef729240bb4e23dc7ab1e30d17bb02f9093d4ae308660a",
+      "bytes": 23260
+    },
+    {
+      "path": "formal/Erdos1040/Unbounded.lean",
+      "sha256": "805c0dd336dee7456891b029688d5e332f2138a799c62a34d0956e93321c9156",
+      "bytes": 4634
+    },
+    {
+      "path": "formal/Erdos1040.lean",
+      "sha256": "fa9ae5956dcee5a7ca03453f66cb3ced06d885879c4cec65d0d2bc9e648f933e",
+      "bytes": 1651
+    },
+    {
+      "path": "formal/lake-manifest.json",
+      "sha256": "19df01c12674786fbad16f0bd032d3687c10516914ff816d20d17157410f0cb1",
+      "bytes": 3162
+    },
+    {
+      "path": "formal/lakefile.toml",
+      "sha256": "af6201809af7fc3a28aefd81e8c5b2fb59d70a5b408bf5fc5472681c138b71b3",
+      "bytes": 243
+    },
+    {
+      "path": "formal/lean-toolchain",
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "bytes": 25
+    },
+    {
+      "path": "formal/reviews/cold-countable-sources-bindings-20260905.json",
+      "sha256": "038e941314beb03bd9043624ff4969bad0d0f3899ff0573e5494e262f2dfadd7",
+      "bytes": 10065
+    },
+    {
+      "path": "formal/reviews/COLD_COUNTABLE_SOURCES_REVIEW_20260905.md",
+      "sha256": "8002854f93e9762f85d52d2cf16d3fc03bdd47bd951e0a055d7bfb0d2f31a845",
+      "bytes": 5799
+    },
+    {
+      "path": "formal/reviews/COLD_SEMANTICS_CAPACITY_DEPENDENCE_REVIEW.md",
+      "sha256": "6484e42f2b68fc1c6163f9020b7942f8dff2c364252d60ebb7cf9f4a610fbccc",
+      "bytes": 12282
+    },
+    {
+      "path": "formal/reviews/COMBINATORICS_BASIC_REVIEW.md",
+      "sha256": "488fd604d57b33b1f2c47aedcd4484d18d2f87e84c6d36543d01ca6c799dcd4a",
+      "bytes": 3508
+    },
+    {
+      "path": "formal/reviews/COMBINATORICS_DENSITY_OPERATOR_REVIEW.md",
+      "sha256": "817248e365fd411cb1d0e85ba9cc77b7cfe2f60817365346a93e4ed199304029",
+      "bytes": 4050
+    },
+    {
+      "path": "formal/reviews/COMBINATORICS_FINAL_ASSEMBLY_REVIEW.md",
+      "sha256": "e063d02c3e60e6e0e0dc0e73c8472696a2923196fdbbebe7b0708c96176b673b",
+      "bytes": 7423
+    },
+    {
+      "path": "formal/reviews/COMBINATORICS_POLYNOMIAL_CONCLUSION_REVIEW.md",
+      "sha256": "6078dec054822e504964701447b037bd0f39cdee751eb4f237c01eebb7610917",
+      "bytes": 2321
+    },
+    {
+      "path": "formal/reviews/COMBINATORICS_POLYNOMIAL_DENSITY_REVIEW.md",
+      "sha256": "678524fdbf187b9c8f88a76d100a65736f6cabfe89441cf3b359f8ab78f19f9c",
+      "bytes": 3970
+    },
+    {
+      "path": "formal/reviews/COMBINATORICS_SOURCE_POTENTIAL_REVIEW.md",
+      "sha256": "b9495d24bc5905987e418008d496e8d7587c6859910f6747793ce9dc9176afe0",
+      "bytes": 5370
+    },
+    {
+      "path": "formal/reviews/COMBINATORICS_TRUNCATED_ENERGY_REVIEW.md",
+      "sha256": "1fc433f7a65f610ab4c315bbf32600ef9bbc3366a510177ffeb2be1d3883053b",
+      "bytes": 4384
+    },
+    {
+      "path": "formal/reviews/FORMALIZATION_PREFLIGHT_AREA_INFIMUM_ENDPOINTS_REVIEW.md",
+      "sha256": "caa2009de717135506edb74d0c75459d593dea43c607bd5c5cbe1484ffbc2c3a",
+      "bytes": 10425
+    },
+    {
+      "path": "formal/reviews/FORMALIZATION_PREFLIGHT_AREA_OBSTRUCTION_REVIEW.md",
+      "sha256": "a8f0c9ecaf191b36f06471a0de55513b7590687302af94fe25065e5a0652fccd",
+      "bytes": 15311
+    },
+    {
+      "path": "formal/reviews/NUMBER_THEORY_CONDITIONAL_LEMNISCATE_REVIEW.md",
+      "sha256": "6120e76513601404492221def2b6369d38cefa4626c1a03166a1cae0df801421",
+      "bytes": 6309
+    },
+    {
+      "path": "formal/reviews/NUMBER_THEORY_EXTERIOR_ASSEMBLY_REVIEW.md",
+      "sha256": "d2e9a4d6f981a05489cc284bfc7ee7318df9841322e82afd7e476f7ff6c79645",
+      "bytes": 5271
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_ADJOINT_CIRCLE_MEAN_REVIEW.md",
+      "sha256": "b4c531419cea3c2433834ffbba0e345fdfdd5b3912b2afe7d7d422536186ad7b",
+      "bytes": 5649
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_ADJOINT_POTENTIAL_REVIEW.md",
+      "sha256": "780a1593cf877f404b2ba7037579f5f0ad83173c261ef4816e69e570e8d3b1bb",
+      "bytes": 5666
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_AREA_TRANSFER_REVIEW.md",
+      "sha256": "06f805a598c7a3040fae3aef2ca27bb0d85ebda8382c9fad62ee0cb347f21c5c",
+      "bytes": 3829
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_CAPACITY_THEOREM_REVIEW.md",
+      "sha256": "7d89906d1ebad82d4a8a6501ddf51c04a627a91f881c0f62345e89eb28990dc2",
+      "bytes": 4271
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_DISCRETE_POTENTIAL_REVIEW.md",
+      "sha256": "c69476e96b906f380459015c79c814dbe8d14e3ad007f5a5626cc2ab7159d394",
+      "bytes": 6210
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_EMPIRICAL_ENERGY_REVIEW.md",
+      "sha256": "48e54d9f54c9ed3e2818ba8b2be654aebe949bd81356bb506a645912f1847df7",
+      "bytes": 2899
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_ENERGY_DIAMETER_REVIEW.md",
+      "sha256": "7cdba9c58ee18e35b9136a52ab97c25c9684b9f0aa10259aca5371d7ce13a8a5",
+      "bytes": 2901
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_ENERGY_FROSTMAN_REVIEW.md",
+      "sha256": "2dc74b28efd6831287bc42cc41cd189c307de621bfbbeaee887f1e2e0a9c3c65",
+      "bytes": 5767
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_EXTERIOR_KERNEL_REVIEW.md",
+      "sha256": "fdefb91dd3e2a66a99b03cb2150c1b89ccd3bc341d185475448c10085d3142ae",
+      "bytes": 6792
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_GEOMETRIC_DIAMETER_REVIEW.md",
+      "sha256": "06d1213aace936867ff300a9cecfdeb0813199ab73ab2e696ab679afa79a7d2c",
+      "bytes": 4474
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_LOG_CONTINUITY_REVIEW.md",
+      "sha256": "cd42abc45968c84a7826263adb7f68fbc5bae6c6a6d14b566a812c43c4b4f512",
+      "bytes": 6314
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_POSITIVE_DENSITY_REVIEW.md",
+      "sha256": "3a76f91a203f7f8ac7dcd4681cdf15048ef814bf161411a967f992a26035cac6",
+      "bytes": 4236
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_SIMULTANEOUS_APPROXIMATION_REVIEW.md",
+      "sha256": "d93cba7661bb126a56d3399fca27c06abacd4f45658a2ea82b60e3e6bcb9f608",
+      "bytes": 3600
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_SOURCE_DENSITY_REVIEW.md",
+      "sha256": "034b7f5ceecbe4cf6caba6734cd0a5600ee8735eb9efb21da3b0170ca4bdb4a3",
+      "bytes": 7349
+    },
+    {
+      "path": "formal/reviews/PREFLIGHT_UNBOUNDED_ATOMIC_REVIEW.md",
+      "sha256": "6b1e0594958d944b415d6602ad69b500d6b943c12fddc3bbbf69d47529b06f8c",
+      "bytes": 7524
+    },
+    {
+      "path": "formal/reviews/ROOT_ADJOINT_UNIQUENESS_REVIEW.md",
+      "sha256": "cb641fe8e1e3d685d04dbe86acc405f178fe4daef479727aaa8d8a70a84df520",
+      "bytes": 1755
+    },
+    {
+      "path": "formal/reviews/ROOT_ATOMIC_APPROXIMATION_REVIEW.md",
+      "sha256": "0d7a4d502f07e4285538cf6746754687ac00c71f0122d6b037f05ddd58b787bc",
+      "bytes": 2791
+    },
+    {
+      "path": "formal/reviews/ROOT_ATOMIC_AREA_ASSEMBLY_REVIEW.md",
+      "sha256": "ee18e843d902f58715df5fdafdbb0b93a313e194845709bb3d35cf9f2b2a6ad9",
+      "bytes": 1331
+    },
+    {
+      "path": "formal/reviews/ROOT_CAP_POLYNOMIAL_REVIEW.md",
+      "sha256": "48bc3878af14ec738b2d33d45209d242d627cc0a38d3086659721417d5e35272",
+      "bytes": 2566
+    },
+    {
+      "path": "formal/reviews/ROOT_CAP_ROTATION_REVIEW.md",
+      "sha256": "d43aa5146fd43254eaa12af71db2ee203da705b4a8ed17ffe5053ef0bc5d9389",
+      "bytes": 1594
+    },
+    {
+      "path": "formal/reviews/ROOT_CIRCLE_MEAN_REVIEW.md",
+      "sha256": "5d97ae54b03d6fe08afbf43ac1531de961365cb0c3ae71ac29097ef79d3b62bb",
+      "bytes": 2477
+    },
+    {
+      "path": "formal/reviews/ROOT_ENERGY_VARIATION_REVIEW.md",
+      "sha256": "645adc9963d8e14d7b949b6d8d4bc603c24a3ac327150659cfd805af77065d44",
+      "bytes": 1361
+    },
+    {
+      "path": "formal/reviews/ROOT_FILLED_HULL_REVIEW.md",
+      "sha256": "051d07edf66175f6a2d38694239189e0d6aac0032c61f6371740c5b50ec99aba",
+      "bytes": 2189
+    },
+    {
+      "path": "formal/reviews/ROOT_GEOMETRIC_DIAMETER_LIMIT_REVIEW.md",
+      "sha256": "654997de23c90d4f656061fd17f9b81f318b5592e2c5deecea123f6d90a5672f",
+      "bytes": 2552
+    },
+    {
+      "path": "formal/reviews/ROOT_GLOBAL_FROSTMAN_REVIEW.md",
+      "sha256": "889a8f650af72603b029fa797815fe5942b6c85f95cd50f52e485d09243916cc",
+      "bytes": 4130
+    },
+    {
+      "path": "formal/reviews/ROOT_HARMONIC_MAXIMUM_REVIEW.md",
+      "sha256": "79bcff2ab486367a5c21b660859b5ae1d97e40404a4dae943ec9055053da14d6",
+      "bytes": 2397
+    },
+    {
+      "path": "formal/reviews/ROOT_LOG_ENERGY_INTEGRABILITY_REVIEW.md",
+      "sha256": "ad1be0965769bd4d0bdf69fac2baf935e7ff759200ff74558207d3b43c1ced9c",
+      "bytes": 1188
+    },
+    {
+      "path": "formal/reviews/ROOT_LOG_ENERGY_REVIEW.md",
+      "sha256": "c7f7baacca4a667d035dcff64dfd493d0395ac3862dd209ea189f6260a62117b",
+      "bytes": 1720
+    },
+    {
+      "path": "formal/reviews/ROOT_LOG_ENERGY_SCALE_REVIEW.md",
+      "sha256": "af94ef0d16f947043625b0617686cd07735dd1c944ae3d8c27e226267602d6e1",
+      "bytes": 1187
+    },
+    {
+      "path": "formal/reviews/ROOT_LOGARITHMIC_CAPACITY_REVIEW.md",
+      "sha256": "0b39e6aa8b6ff9ea537fb333fb73d48089f5ae4383f64865589232cb287972ba",
+      "bytes": 3356
+    },
+    {
+      "path": "formal/reviews/ROOT_LOGKERNEL_REVIEW.md",
+      "sha256": "bd1df9194536a9e5653e167b626addb4c33848fe1fb7bf7817baf7f883ae464c",
+      "bytes": 2391
+    },
+    {
+      "path": "formal/reviews/ROOT_POTENTIAL_ASYMPTOTICS_REVIEW.md",
+      "sha256": "7de9c029c332b4b59fded327a4c198151d79375d1652be4c31fe13b1a1a91b86",
+      "bytes": 2358
+    },
+    {
+      "path": "formal/reviews/ROOT_POTENTIAL_HARMONIC_REVIEW.md",
+      "sha256": "60c28f3374c4bd1d2c4286d0d039ca39b7abd9895046b926f1e59bbcbb1720fe",
+      "bytes": 2380
+    },
+    {
+      "path": "formal/reviews/ROOT_POTENTIAL_MOMENTS_REVIEW.md",
+      "sha256": "d0a804bb0e507276ddb5f35613c1098bb6d15f0270bef45698f131a5df10702d",
+      "bytes": 1471
+    },
+    {
+      "path": "formal/reviews/ROOT_SOURCE_SUPPORT_REVIEW.md",
+      "sha256": "a5b9cb86a3a6696c30002235e94accd52382ddfd1768f089345b1bfb0912454a",
+      "bytes": 1859
+    },
+    {
+      "path": "paper/Erdos1040-Paper.md",
+      "sha256": "4a3b70f0b0f05bdb9056b17be1f54c3c5c8788fb28e26822e7b525e849027951",
+      "bytes": 40306
+    },
+    {
+      "path": "README.md",
+      "sha256": "65e758fd6e5bac99e834ef3d727cc53aca8db1b55775ecec300eb7b256d04e9e",
+      "bytes": 3902
+    },
+    {
+      "path": "REPRODUCING.md",
+      "sha256": "e7db471464fef3cfb66c3f292ca8251d699458239130d90ca37de861824a1e99",
+      "bytes": 2893
+    },
+    {
+      "path": "RIGHTS.md",
+      "sha256": "302dd7265ec6d371c2726de83e43f44f8111536f937213617f11029837301879",
+      "bytes": 345
+    },
+    {
+      "path": "scripts/check-formalization.py",
+      "sha256": "168890b0cd94602da0dae6920b997d1e47a29d5035c0ed8be15e6216e8a55ca2",
+      "bytes": 23611
+    },
+    {
+      "path": "scripts/prepare-dependencies.py",
+      "sha256": "eaec090a4cddc7b307b276c04ce30fcb1caa92e5f3102a86ccc5bbbaf830af31",
+      "bytes": 8436
+    },
+    {
+      "path": "scripts/verify-files.py",
+      "sha256": "0dc52b20b786da53b5a20359ced27aa520eaca60ed1ce4bc616a52f79448e2e7",
+      "bytes": 825
+    },
+    {
+      "path": "VERIFICATION.md",
+      "sha256": "04273134fb20d9c258008721598b998d9f30968103eff5096277f2ebbe2e36db",
+      "bytes": 4432
+    }
+  ],
+  "packaging_revision": "1.0.1",
+  "packaging_change": "Adds the omitted companion binding JSON referenced by the existing countable-source review. All original files except this manifest retain their original bytes.",
+  "original_archive_sha256": "63cf8ae523c6c8277540bd6390d90a31899296d38afed6e531ff5da31405688a"
+}

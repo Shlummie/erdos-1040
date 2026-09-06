@@ -1,0 +1,9 @@
+# Independent source-support review
+
+Reviewer: root, independent of author formalization_preflight. Reviewed the entire frozen SourceSupport.lean and all twelve exact signatures and axiom outputs in formal/admissions/2026-09-05-geometric-support-initial-195.json. The source hash is 3030987deff1f06329e54533522578ed0d4bc0d89bfc969da242cf3408851ff7. Exact version bindings are in root-source-support-bindings.json.
+
+The two definitions are the ambient pushforward support and its actual probability pullback to that closed conull support. Support containment assumes the original source closed; compactness assumes it compact; nonemptiness follows from mass one and the second-countable complex ambient space. No energy or potential property enters.
+
+Map equality is exact, so the represented probability is unchanged. The three integral-transport statements use measurable original sources and actual inclusion maps. The Bochner identity allows arbitrary functions and thus uses the standard totalized integral; the separate integrability equivalence prevents treating it as evidence of integrability. The extended integral identity retains infinite values. Null-singleton transfer is proved by the injectivity of inclusion, not an additional source-atom assumption.
+
+The final two theorems give integrability and harmonicity off the actual ambient support, which can be smaller than the original source. They transport to the compact support, use the earlier actual-potential theorems there, then transport back. Every quantifier and typeclass matches the stated scope. The Lean source introduces no target-shaped hypothesis, regularity assumption, or custom axiom. Standard-only axiom checks pass for all twelve; no correspondence defect was found. This does not itself assert an equilibrium measure, a filled hull, or the main small-lemniscate conclusion.

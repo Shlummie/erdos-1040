@@ -1,0 +1,7 @@
+# Independent correspondence review: PotentialMoments
+
+Reviewer: root. Authors: separate research agents. Date: 2026-09-05 UTC.
+
+Read all eight exact printed signatures and all source. Arbitrary source measures with integrable real densities are allowed in the analytic-series and polynomial-integrability helpers; the final comparison uses two compact source sets and separate finite measures. The logarithmic series is local at zero; its zeroth summand and coefficient are zero by totalized division. The zeroth moment is proved separately using a large circle with nonzero log radius. Positive moments follow from equality of actual exterior potentials, locally analytic generating integrals, their exact real parts, constancy for zero real part, and coefficient uniqueness. Integrability and dominated summation are proved, not assumed conclusions. No moment equality, shared measure, global logarithm branch, or harmonicity assumption is inserted. The resulting exact polynomial integral equality is for every complex polynomial and every natural moment including zero. No capacity or equilibrium result is asserted.
+
+All exact signatures and standard-only axiom dependencies were read from the immutable full PASS report `formal/admissions/2026-09-05-conditional-core-pre-admission.json`. No correspondence discrepancy found. Source SHA256: 1cdba35c8e3a11374fb02509aee0bf4c34302fcbbe14e214de938b6f76029923. Version bindings: `root-potential-moments-bindings.json`.

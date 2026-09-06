@@ -35,3 +35,27 @@ The PDF retains the complete main proof and counterexample argument, with one do
 The source ZIP includes `evidence/recorded-audit.json` and `evidence/package-check.json`. Both are explicitly labeled sanitized derivatives: personal absolute paths were replaced, while mathematical fields and source hashes were preserved. Each records its original report's SHA-256. `formal/claims.json` holds the unchanged version-bound review notes; supplemental review documents may refer to historical artifacts not shipped here.
 
 `MANIFEST.json` inside the source ZIP hashes all its other files. Run `python scripts/verify-files.py` after extraction to check them. `SHA256SUMS.txt` beside the PDF hashes the four public release files other than that checksum list. Hashes establish file identity, not mathematical acceptance.
+
+
+## Packaging update 1.0.1, 2026-09-06T03:13:43.392601+00:00
+
+The `source/` directory now makes the same formal project browsable on GitHub.
+`Erdos1040-Lean-Source-v1.0.1.zip` also includes the previously omitted companion
+`formal/reviews/cold-countable-sources-bindings-20260905.json`, which is linked
+from the countable-source review. Its eight source/signature/statement bindings
+match the already shipped claims manifest. The revised source manifest records
+the added attachment. Every original source-archive file except that manifest
+retains its original bytes, including all 54 Lean files, the checker, claims,
+dependency pins and both audit records. File hashes, archive contents and
+relative Markdown links were checked. No mathematical change or new kernel
+execution is claimed for this packaging update.
+
+The original PDF and source ZIP remain unchanged and available. The initial
+five-file release, including its checksum list, is preserved at Git commit
+`cc27bcde8bbe857d83c6c3b4ae537447739bf409`. The current `SHA256SUMS.txt` covers
+the current root release files and `source/MANIFEST.json`; the latter hashes
+the other 122 files in the browsable project and corrected source archive.
+
+Erdős claim 269 was submitted under shlummi and was awaiting moderator approval
+when inspected for this update. This is a publication record, not site acceptance
+or independent human peer review.

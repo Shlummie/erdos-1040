@@ -1,0 +1,14 @@
+# Independent correspondence review: EnergyDiameter
+
+Reviewer: `formalization_preflight` (not the source author). Machine evidence: `formal/admissions/2026-09-05-energy-diameter-pre-admission-203.json`, checked 2026-09-05T05:48:38.649762+00:00, all 203 declarations machine PASS, main targets incomplete. I read the entire source and its current natural-language statements, checked each definition body where present, and independently printed every exact signature and axiom list. The combined 42 fresh messages for these three modules match the immutable snapshot exactly. Log: `formal/.audit/preflight-geometric-empirical-energy.log`, Lean exit 0. All declarations depend only on the standard allowed logical axioms.
+
+Frozen source SHA-256: `c663863273a1848745a39df225985c3983239b1103b62f974855ae32b8d2c7c5`.
+
+I also read the complete TruncatedEnergy dependency to check the crucial quantifier passage. Its compact nested closed sublevels turn separately bounded truncations into one actual probability with bounded full energy. The approximate version first minimizes each fixed truncation and removes every positive error, then applies that nested-sublevel theorem. It does not assume one empirical probability works for all truncations.
+
+| Declaration | Exact correspondence review |
+|---|---|
+| `exists_probability_energy_le_log_of_one_le_transfiniteDiameter` | Compact original source, registered geometric infimum>=1, and D>=1 bounding every source pair are the entire hypotheses. For each fixed natural truncation n and positive NNReal error epsilon, it chooses a sufficiently large positive order N>=2 so n/N<=epsilon, then the actual injective original-source configuration has nonnegative off-diagonal log sum. EmpiricalEnergy gives the full truncated bound including the diagonal error. Compactness supplies one probability whose full extended energy is at most ofReal(logD). |
+| `exists_finite_minimizer_of_one_le_transfiniteDiameter` | The bounded-energy probability gives a finite competitor. Nonemptiness follows from the geometric hypothesis. The actual attained global minimum among every source probability is no larger than that competitor, hence finite, and conversion to its real value is justified only then. The result includes global minimality, explicit energy!=infinity, and energy.toReal<=logD. |
+
+No source enlargement, weakening of global minimality, changed probability mass, untracked potential property, or assumed capacity equality was found. The registered transfiniteDiameter is the geometric infimum API reviewed separately; its classical decreasing-limit identification remains a separate correspondence obligation. These two theorems close the finite-energy-existence bridge for that exact registered geometric hypothesis. They do not establish a global raw-potential bound or the final Erdős conclusion. Bindings: `preflight-energy-diameter-bindings.json`.

@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Erdos1040.nonnegativeLogEnergy_eq_top_of_countable",
+    "correspondence_status": "reviewed",
+    "review": {
+      "source_sha256": "95663c2dd64194040b067955857e6724fcaadef8316d3ca315978595e81a9596",
+      "signature_sha256": "e3c5bccb99362065ed6b12a858d24768aec6ab687d04349edf5571a2267fcb0a",
+      "statement_sha256": "10f5acffa36dc8f11cc0c22c8d3b9bc8f0ec8014261d2af88214756fc936b4e2",
+      "reviewed_by": "cold_analytic",
+      "notes": "Independent installed-source and exact printed-signature review; see formal/reviews/COLD_COUNTABLE_SOURCES_REVIEW_20260905.md. The signature quantifies over arbitrary countable complex S, every positive real D, and every actual probability on subtype S. Finite energy would imply NullSingletonClass on that subtype; countable-universe measure zero contradicts probability mass one. Equality to ENNReal top preserves actual infinite diagonal energy. No compactness, boundedness, distance-scale bound or minimizer hypothesis is present or needed; empty-source probability quantification is vacuous. No mathematical or correspondence defect found in this declaration.",
+      "reviewed_at_utc": "2026-09-05T19:05:26+00:00",
+      "machine_report_sha256": "e0d517065c7f077bba2633e9eb12d46cb23ece2e62acef4f1dca3c41da3bda1b",
+      "review_report_sha256": "8002854f93e9762f85d52d2cf16d3fc03bdd47bd951e0a055d7bfb0d2f31a845"
+    }
+  },
+  {
+    "name": "Erdos1040.logarithmicCapacity_eq_zero_of_countable",
+    "correspondence_status": "reviewed",
+    "review": {
+      "source_sha256": "95663c2dd64194040b067955857e6724fcaadef8316d3ca315978595e81a9596",
+      "signature_sha256": "43e858d6ad76aeebbd483b71012ac3df486c3c235536d401136be5d21b666d26",
+      "statement_sha256": "4901b15d905ee9e1404706f362ca336f84b0b368de7788b5ead7594461209f23",
+      "reviewed_by": "cold_analytic",
+      "notes": "Independent installed-source and exact printed-signature review; see formal/reviews/COLD_COUNTABLE_SOURCES_REVIEW_20260905.md. The signature proves zero for the already defined literal logarithmicCapacity on every countable S. Scale max(1,diam S) is positive, every energy is infinity, finite-real log subtraction leaves EReal top, and the Robin infimum therefore yields capacity zero, including the empty index case. The registered statement correctly limits classical interpretation to bounded or compact sources; it introduces no unbounded-capacity convention. No mathematical or correspondence defect found in this declaration.",
+      "reviewed_at_utc": "2026-09-05T19:05:26+00:00",
+      "machine_report_sha256": "e0d517065c7f077bba2633e9eb12d46cb23ece2e62acef4f1dca3c41da3bda1b",
+      "review_report_sha256": "8002854f93e9762f85d52d2cf16d3fc03bdd47bd951e0a055d7bfb0d2f31a845"
+    }
+  },
+  {
+    "name": "Erdos1040.smallCountableSource",
+    "correspondence_status": "reviewed",
+    "review": {
+      "source_sha256": "95663c2dd64194040b067955857e6724fcaadef8316d3ca315978595e81a9596",
+      "signature_sha256": "7c7b7c60fc4dd00ec2ad4ae60869a419b2b7cda57798d47cb10a2bbd68d4e592",
+      "statement_sha256": "052e0fe5c95a28cb792f6237e91b8d001175c34d623cc02d8547c7c39043559d",
+      "reviewed_by": "cold_analytic",
+      "notes": "Independent installed-source and exact printed-signature review; see formal/reviews/COLD_COUNTABLE_SOURCES_REVIEW_20260905.md. Inspected the actual definition body, since the printed Set-complex type alone is insufficient: insert 0 of the range n maps to 1 divided by the complex cast of natural n+4. Natural zero is included, the first reciprocal is 1/4, all denominators are positive natural numbers, and zero is the explicitly included limit point. This exactly matches the registered source statement. No mathematical or correspondence defect found in this declaration.",
+      "reviewed_at_utc": "2026-09-05T19:05:26+00:00",
+      "machine_report_sha256": "e0d517065c7f077bba2633e9eb12d46cb23ece2e62acef4f1dca3c41da3bda1b",
+      "review_report_sha256": "8002854f93e9762f85d52d2cf16d3fc03bdd47bd951e0a055d7bfb0d2f31a845"
+    }
+  },
+  {
+    "name": "Erdos1040.smallCountableSource_countable",
+    "correspondence_status": "reviewed",
+    "review": {
+      "source_sha256": "95663c2dd64194040b067955857e6724fcaadef8316d3ca315978595e81a9596",
+      "signature_sha256": "b99c6c83e3ce235d091873f70ce61fb6c581cea5552216e68d6837e1c636e9ec",
+      "statement_sha256": "d1a1aded30813b8bcbf5e6418bdf09cd8f1afc8e64bb545075dc2b55cc3df903",
+      "reviewed_by": "cold_analytic",
+      "notes": "Independent installed-source and exact printed-signature review; see formal/reviews/COLD_COUNTABLE_SOURCES_REVIEW_20260905.md. The unconditional signature concerns the exact defined smallCountableSource. A range indexed by all natural numbers is countable and insertion of zero preserves countability. No finite-only restriction, altered sequence or hidden domain assumption occurs. No mathematical or correspondence defect found in this declaration.",
+      "reviewed_at_utc": "2026-09-05T19:05:26+00:00",
+      "machine_report_sha256": "e0d517065c7f077bba2633e9eb12d46cb23ece2e62acef4f1dca3c41da3bda1b",
+      "review_report_sha256": "8002854f93e9762f85d52d2cf16d3fc03bdd47bd951e0a055d7bfb0d2f31a845"
+    }
+  },
+  {
+    "name": "Erdos1040.smallCountableSource_isCompact",
+    "correspondence_status": "reviewed",
+    "review": {
+      "source_sha256": "95663c2dd64194040b067955857e6724fcaadef8316d3ca315978595e81a9596",
+      "signature_sha256": "2e31dc99bbc3d418322ef5755758331e54c0a1d54cd9033a20566ce8d191757c",
+      "statement_sha256": "2207865e38c541245c763c4df745f35321a0bd9093b5d24969045f3b0cb027f7",
+      "reviewed_by": "cold_analytic",
+      "notes": "Independent installed-source and exact printed-signature review; see formal/reviews/COLD_COUNTABLE_SOURCES_REVIEW_20260905.md. The unconditional signature asserts ordinary topological compactness of the exact source. The actual complex reciprocal sequence shifted by four tends to zero, and Tendsto.isCompact_insert_range proves compactness of the range together with that same zero limit. Compactness is derived without a closure replacement or geometric regularity premise. No mathematical or correspondence defect found in this declaration.",
+      "reviewed_at_utc": "2026-09-05T19:05:26+00:00",
+      "machine_report_sha256": "e0d517065c7f077bba2633e9eb12d46cb23ece2e62acef4f1dca3c41da3bda1b",
+      "review_report_sha256": "8002854f93e9762f85d52d2cf16d3fc03bdd47bd951e0a055d7bfb0d2f31a845"
+    }
+  },
+  {
+    "name": "Erdos1040.smallCountableSource_infinite",
+    "correspondence_status": "reviewed",
+    "review": {
+      "source_sha256": "95663c2dd64194040b067955857e6724fcaadef8316d3ca315978595e81a9596",
+      "signature_sha256": "76484b433b4abbd5b9e605e69685cd7402b1aff4968954af32a45dad968b8e7a",
+      "statement_sha256": "352356238d2354fda95e64fc3fe1b65b0e508cd014ab4ebd648b7ee5a9efd493",
+      "reviewed_by": "cold_analytic",
+      "notes": "Independent installed-source and exact printed-signature review; see formal/reviews/COLD_COUNTABLE_SOURCES_REVIEW_20260905.md. The unconditional signature asserts infinity of the exact source. Complex inversion is involutive even at its totalized zero; applying it to equal reciprocals recovers equal denominator casts. Nat.cast_injective and addition cancellation make the natural sequence injective, so its range is infinite and its inclusion into the zero-inserted source preserves infinity. No mathematical or correspondence defect found in this declaration.",
+      "reviewed_at_utc": "2026-09-05T19:05:26+00:00",
+      "machine_report_sha256": "e0d517065c7f077bba2633e9eb12d46cb23ece2e62acef4f1dca3c41da3bda1b",
+      "review_report_sha256": "8002854f93e9762f85d52d2cf16d3fc03bdd47bd951e0a055d7bfb0d2f31a845"
+    }
+  },
+  {
+    "name": "Erdos1040.smallCountableSource_subset_closedBall",
+    "correspondence_status": "reviewed",
+    "review": {
+      "source_sha256": "95663c2dd64194040b067955857e6724fcaadef8316d3ca315978595e81a9596",
+      "signature_sha256": "e62ff09a56b2d2936f30bd03ac0e1430a7d00db82b82603fc1eb3587d9e67694",
+      "statement_sha256": "86a9cbbb8327a36b44b62193889abbb127724eb7447f04c9376d45d7e6f09a9b",
+      "reviewed_by": "cold_analytic",
+      "notes": "Independent installed-source and exact printed-signature review; see formal/reviews/COLD_COUNTABLE_SOURCES_REVIEW_20260905.md. The signature uses the closed metric ball of complex center zero and real radius 1/4. Zero satisfies the bound; each other member has norm 1/(n+4), and 4<=n+4 gives the non-strict reciprocal bound. The endpoint n=0, whose norm is exactly 1/4, is retained. No open-ball or strictly-smaller-radius substitution occurs. No mathematical or correspondence defect found in this declaration.",
+      "reviewed_at_utc": "2026-09-05T19:05:26+00:00",
+      "machine_report_sha256": "e0d517065c7f077bba2633e9eb12d46cb23ece2e62acef4f1dca3c41da3bda1b",
+      "review_report_sha256": "8002854f93e9762f85d52d2cf16d3fc03bdd47bd951e0a055d7bfb0d2f31a845"
+    }
+  },
+  {
+    "name": "Erdos1040.zero_mem_smallCountableSource",
+    "correspondence_status": "reviewed",
+    "review": {
+      "source_sha256": "95663c2dd64194040b067955857e6724fcaadef8316d3ca315978595e81a9596",
+      "signature_sha256": "b100ef27e7ba9db33aaf760cce7fd5ce68e57619b973e5eb686fc9aa6bcdcdee",
+      "statement_sha256": "afde334e673ab1aaa154d25b1d96f6722fd81fbb8a539e3418d4c9da07bb2db1",
+      "reviewed_by": "cold_analytic",
+      "notes": "Independent installed-source and exact printed-signature review; see formal/reviews/COLD_COUNTABLE_SOURCES_REVIEW_20260905.md. The unconditional exact membership signature follows directly from the inserted complex zero in the source definition. No caller-supplied nonemptiness assumption or alternate distinguished element is used. No mathematical or correspondence defect found in this declaration.",
+      "reviewed_at_utc": "2026-09-05T19:05:26+00:00",
+      "machine_report_sha256": "e0d517065c7f077bba2633e9eb12d46cb23ece2e62acef4f1dca3c41da3bda1b",
+      "review_report_sha256": "8002854f93e9762f85d52d2cf16d3fc03bdd47bd951e0a055d7bfb0d2f31a845"
+    }
+  }
+]
